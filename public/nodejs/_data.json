@@ -1,0 +1,34 @@
+{
+  "index": {
+    "name": "nodejs",
+    "title": "Node.js",
+    "about": "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.",
+    "site": "http://nodejs.org",
+    "image": "nodejs.jpg",
+    "category": "languages",
+    "books": [
+      {
+        "title": "Node.js Succinctly",
+        "description": "Use Node.js to create faster network and server-side applications on any scale, improve your existing database applications, or create web apps with JSON data.",
+        "author": "Agus Kurniawan",
+        "pages": 201, 
+        "year": 2014, 
+        "image": "nodejs-succinctly.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "http://www.syncfusion.com/resources/techportal/ebooks/nodejs"
+      },
+      {
+        "title": "Pro Node.js for Developers",
+        "description": "Pro Node.js for Developers provides a comprehensive guide to this exciting new technology.  We introduce you to Node – what it is, why it matters and how to set it up – before diving deeply into the key concepts and APIs that underpin its operation.",
+        "author": "Colin J. Ihrig",
+        "pages": 308,
+        "year": 2013,
+        "image": "pro-nodejs-for-developers.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "http://allebook.biz/pro-node-js-for-developers"
+      }
+    ]
+  }
+}

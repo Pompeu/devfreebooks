@@ -1,0 +1,25 @@
+header.header
+  nav.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
+    div.navbar-header
+      button.navbar-toggle(type="button")
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href="#{root_url[environment]}") 
+        img(src="#{root_url[environment]}assets/images/devfreebooks.png" width="223" height="35" alt="DevFreeBooks - #{description}" title="DevFreeBooks - #{description}")
+    div.navbar-right.navbar-collapse.hidden-xs
+      ul.nav.navbar-nav
+        li
+          a.navbar-link(href="https://twitter.com/devfreebooks" rel="nofollow" title="Follow us on Twitter to be updated about news free books!" target="_blank") <i class="icon-twitter"></i>&nbsp;Follow us
+        li
+          a.navbar-link(href="#{root_url[environment]}about") <i class="icon-user"></i>&nbsp;About
+        li.hidden-md.hidden-lg.divider
+        li.hidden-md.hidden-lg.dropdown-header <b>Please share this project!</b>
+        li.hidden-md.hidden-lg
+          a(target="_blank" rel="nofollow" href="https://www.facebook.com/sharer.php?u=#{encodeURIComponent(root_url[environment])}&t=#{encodeURIComponent(title)}") &nbsp;&nbsp;&nbsp;<i class="icon-facebook"></i>&nbsp;Facebook
+        li.hidden-md.hidden-lg
+          a(target="_blank" rel="nofollow" href="https://twitter.com/intent/tweet?text=#{encodeURIComponent(title)}%20#{encodeURIComponent(description)}%20#{encodeURIComponent(root_url[environment])}&via=devfreecasts") &nbsp;&nbsp;&nbsp;<i class="icon-twitter"></i>&nbsp;Twitter
+        li.hidden-md.hidden-lg
+          a(target="_blank" rel="nofollow" href="http://www.linkedin.com/shareArticle?mini=true&url=#{encodeURIComponent(root_url[environment])}&title=#{encodeURIComponent(title)}&summary=#{description}&source=#{title}") &nbsp;&nbsp;&nbsp;<i class="icon-linkedin"></i>&nbsp;LinkedIn
+        li.hidden-md.hidden-lg
+          a(target="_blank" rel="nofollow" href="https://plus.google.com/share?url=#{encodeURIComponent(root_url[environment])}") &nbsp;&nbsp;&nbsp;<i class="icon-gplus"></i>&nbsp;Google+

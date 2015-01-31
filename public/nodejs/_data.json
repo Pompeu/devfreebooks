@@ -8,6 +8,28 @@
     "category": "languages",
     "books": [
       {
+        "title": "npm recipes",
+        "description": "There are over 70,000 modules on npm, so there's a wildly big number of opportunities for checking out how various npm modules can work together. This book showcases them one 'recipe' at a time.",
+        "author": "Seth Vincent",
+        "pages": 52, 
+        "year": 2014, 
+        "image": "npm-recipes.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "https://leanpub.com/npm-recipes"
+      },
+      {
+        "title": "Mastering Node.js",
+        "description": "Open Source Node eBook",
+        "author": "TJ Holowaychuk",
+        "pages": 85, 
+        "year": 2011, 
+        "image": "mastering-nodejs.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "http://tj.github.io/masteringnode/"
+      },
+      {
         "title": "Node.js Succinctly",
         "description": "Use Node.js to create faster network and server-side applications on any scale, improve your existing database applications, or create web apps with JSON data.",
         "author": "Agus Kurniawan",
@@ -28,6 +50,16 @@
         "lang": "EN",
         "publish": true,
         "url": "http://allebook.biz/pro-node-js-for-developers"
+      },
+      {
+        "title": "Mixu's Node book",
+        "description": "A book about using Node.js",
+        "author": "Mikito Takada",
+        "pages": 14, 
+        "year": 2012, 
+        "lang": "EN",
+        "publish": true,
+        "url": "http://book.mixu.net/node/index.html"
       }
     ]
   }

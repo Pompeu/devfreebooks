@@ -9,6 +9,6 @@
       "production": "http://devfreebooks.org/"
     },
     "utm": "utm_source=devfreebooks&utm_medium=medium&utm_campaign=DevFreeBooks",
-    "platforms": ["nodejs"]
+    "platforms": ["nodejs", "angularjs"]
   }
 }

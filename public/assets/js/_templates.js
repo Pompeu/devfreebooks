@@ -28,7 +28,7 @@ function program1(depth0,data) {
   if (helper = helpers.about) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.about); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "\" class=\"btn btn-block btn-primary\">\n              <i class=\"icon-book\"></i>&nbsp;";
+    + "\" class=\"btn btn-block btn-success\">\n              <i class=\"icon-book\"></i>&nbsp;";
   if (helper = helpers.title) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.title); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
@@ -51,14 +51,14 @@ function program1(depth0,data) {
     + "</strong> books.\n  </p>\n</div>\n<div class=\"row-fluid\">\n  ";
   stack1 = helpers.each.call(depth0, (depth0 && depth0.platforms), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n</div>";
+  buffer += "\n</div>\n";
   return buffer;
   });
 
 this["DFB"]["thumb_books"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  var stack1, functionType="function", escapeExpression=this.escapeExpression, self=this;
+  var buffer = "", stack1, functionType="function", escapeExpression=this.escapeExpression, self=this;
 
 function program1(depth0,data,depth1) {
   
@@ -100,15 +100,15 @@ function program1(depth0,data,depth1) {
   if (helper = helpers.author) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.author); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "<br>Year: <span class=\"label label-primary\">";
+    + "<br>Year: <span class=\"label label-success\">";
   if (helper = helpers.year) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.year); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "</span> | Lang.: <span class=\"label label-primary\">";
+    + "</span> | Lang.: <span class=\"label label-success\">";
   if (helper = helpers.lang) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.lang); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "</span> | Pages: <span class=\"label label-primary\">";
+    + "</span> | Pages: <span class=\"label label-success\">";
   if (helper = helpers.pages) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.pages); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
@@ -116,7 +116,7 @@ function program1(depth0,data,depth1) {
   if (helper = helpers.url) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.url); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "\" target=\"_blank\" class=\"btn btn-primary btn-block\" role=\"button\" onclick=\"ga('send', 'event', 'Books', '"
+    + "\" target=\"_blank\" class=\"btn btn-success btn-block\" role=\"button\" onclick=\"ga('send', 'event', 'Books', '"
     + escapeExpression(((stack1 = (depth1 && depth1.title)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "', '";
   if (helper = helpers.title) { stack1 = helper.call(depth0, {hash:{},data:data}); }
@@ -138,6 +138,7 @@ function program4(depth0,data) {
   }
 
   stack1 = helpers.each.call(depth0, (depth0 && depth0.books), {hash:{},inverse:self.noop,fn:self.programWithDepth(1, program1, data, depth0),data:data});
-  if(stack1 || stack1 === 0) { return stack1; }
-  else { return ''; }
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n";
+  return buffer;
   });

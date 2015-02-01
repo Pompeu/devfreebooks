@@ -1,0 +1,23 @@
+{
+  "index": {
+    "name": "go",
+    "subtitle": "Go",
+    "about": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
+    "site": "http://golang.org",
+    "image": "go.jpg",
+    "category": "languages",
+    "books": [
+      {
+        "title": "Building web apps with Go",
+        "description": "Learn how to build and deploy web applications with Go.",
+        "author": "Jeremy Saenz",
+        "pages": 24, 
+        "year": 2014, 
+        "image": "building-web-apps-with-go.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "http://codegangsta.gitbooks.io/building-web-apps-with-go/"
+      }
+    ]
+  }
+}

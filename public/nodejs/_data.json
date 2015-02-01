@@ -1,12 +1,23 @@
 {
   "index": {
     "name": "nodejs",
-    "title": "Node.js",
+    "subtitle": "Node.js",
     "about": "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.",
     "site": "http://nodejs.org",
     "image": "nodejs.jpg",
     "category": "languages",
     "books": [
+      {
+        "title": "Node, Express and libsass: project from scratch workshop",
+        "description": "Node.js What's all the buzz about? Follow along in this workshop/tutorial to get your head wrapped around what it takes to make a Node project from scratch.",
+        "author": "Dale Sandle",
+        "pages": 50, 
+        "year": 2014, 
+        "image": "node-express-and-libsass-project-from-scratch-workshop.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "http://anotheruiguy.gitbooks.io/nodeexpreslibsass_from-scratch/"
+      },
       {
         "title": "npm recipes",
         "description": "There are over 70,000 modules on npm, so there's a wildly big number of opportunities for checking out how various npm modules can work together. This book showcases them one 'recipe' at a time.",
@@ -17,6 +28,28 @@
         "lang": "EN",
         "publish": true,
         "url": "https://leanpub.com/npm-recipes"
+      },
+      {
+        "title": "JavaScript and Node FUNdamentals",
+        "description": "A short read to brush up and refresh JavaScript and Node.js topics.",
+        "author": "Azat Mardan",
+        "pages": 1, 
+        "year": 2014, 
+        "image": "javascript-and-node-fundamentals.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "https://leanpub.com/jsfun/read"
+      },
+      {
+        "title": "Your first app: node.js",
+        "description": "In this book, you will learn the basics of designing and developing a node.js application. Unlike other books, focus here is on learning multiple technologies at once and defining processes for success. This tutorial will include: git workflow, node.js, mongodb, angular.js, and grunt.js.",
+        "author": "Jim Schubert",
+        "pages": 1, 
+        "year": 2014, 
+        "image": "your-first-app-nodejs.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "https://leanpub.com/yfa-nodejs/read"
       },
       {
         "title": "Mastering Node.js",
@@ -50,6 +83,17 @@
         "lang": "EN",
         "publish": true,
         "url": "http://allebook.biz/pro-node-js-for-developers"
+      },
+      {
+        "title": "Heroku + Node.JS",
+        "description": "Learn how to build and deploy Node.JS applications on Heroku.",
+        "author": "Samy Pessé",
+        "pages": 11,
+        "year": 2014,
+        "image": "heroku-nodejs.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "http://samypesse.gitbooks.io/heroku-node/"
       },
       {
         "title": "Mixu's Node book",

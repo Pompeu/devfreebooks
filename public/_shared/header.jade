@@ -9,8 +9,10 @@ header.header
         img(src="#{root_url[environment]}assets/images/devfreebooks.png" width="228" height="35" alt="DevFreeBooks - #{description}" title="DevFreeBooks - #{description}")
     div.navbar-right.navbar-collapse.hidden-xs
       ul.nav.navbar-nav
-        li
+        li.hidden-xs.hidden-sm
           a.navbar-link(href="https://github.com/caio-ribeiro-pereira/devfreebooks/blob/master/README.md#how-to-add-books" target="_blank") <i class="icon-github"></i>&nbsp;Add book
+        li.hidden-md.hidden-lg
+          a.navbar-link(href="http://devfreecasts.org?utm_source=devfreebooks&utm_medium=medium&utm_campaign=DevFreeBooks" target="_blank" rel="me" title="a huge collection of screencasts for devs.") <i class="icon-play"></i>&nbsp; DevFreeCasts
         li
           a.navbar-link(href="#{root_url[environment]}about") <i class="icon-child"></i>&nbsp;About
         li.hidden-md.hidden-lg.divider

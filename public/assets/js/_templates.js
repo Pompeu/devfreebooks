@@ -40,7 +40,7 @@ function program1(depth0,data) {
   return buffer;
   }
 
-  buffer += "<div class=\"row-fluid\">\n  <p class=\"center\">\n    <strong>";
+  buffer += "<div class=\"row-fluid\">\n  <div class=\"col-xs-12\">\n    <p class=\"center\">\n      <strong>";
   if (helper = helpers.total_platforms) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.total_platforms); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
@@ -48,10 +48,10 @@ function program1(depth0,data) {
   if (helper = helpers.total_free_books) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.total_free_books); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "</strong> books.\n  </p>\n</div>\n<div class=\"row-fluid\">\n  ";
+    + "</strong> books.\n    </p>\n  </div>\n</div>\n<div class=\"row-fluid\">\n  ";
   stack1 = helpers.each.call(depth0, (depth0 && depth0.platforms), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n</div>\n";
+  buffer += "\n</div>\n<div class=\"row-fluid\">\n  <div class=\"col-xs-12\">\n    <p class=\"center\">\n      <strong>See also <a href=\"http://devfreecasts.org?utm_source=devfreebooks&utm_medium=medium&utm_campaign=DevFreeBooks\" target=\"_blank\" rel=\"me\" title=\"a huge collection of screencasts for devs.\">DevFreeCasts</a>.</strong>\n    </p>\n  </div>\n</div>";
   return buffer;
   });
 

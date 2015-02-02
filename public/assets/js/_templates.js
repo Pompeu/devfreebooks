@@ -51,7 +51,7 @@ function program1(depth0,data) {
     + "</strong> books.\n    </p>\n  </div>\n</div>\n<div class=\"row-fluid\">\n  ";
   stack1 = helpers.each.call(depth0, (depth0 && depth0.platforms), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n</div>\n<div class=\"row-fluid\">\n  <div class=\"col-xs-12\">\n    <p class=\"center\">\n      <strong>See also <a href=\"http://devfreecasts.org?utm_source=devfreebooks&utm_medium=medium&utm_campaign=DevFreeBooks\" target=\"_blank\" rel=\"me\" title=\"a huge collection of free screencasts for devs.\">DevFreeCasts</a>.</strong>\n    </p>\n  </div>\n</div>";
+  buffer += "\n</div>";
   return buffer;
   });
 
@@ -79,7 +79,7 @@ function program1(depth0,data,depth1) {
   else { helper = (depth0 && depth0.title); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
     + "\" onclick=\"ga('send', 'event', 'Books', '"
-    + escapeExpression(((stack1 = (depth1 && depth1.title)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + escapeExpression(((stack1 = (depth1 && depth1.subtitle)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "', '";
   if (helper = helpers.title) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.title); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
@@ -117,7 +117,7 @@ function program1(depth0,data,depth1) {
   else { helper = (depth0 && depth0.url); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
     + "\" target=\"_blank\" class=\"btn btn-success btn-block\" role=\"button\" onclick=\"ga('send', 'event', 'Books', '"
-    + escapeExpression(((stack1 = (depth1 && depth1.title)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + escapeExpression(((stack1 = (depth1 && depth1.subtitle)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "', '";
   if (helper = helpers.title) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.title); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }

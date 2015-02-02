@@ -7,14 +7,14 @@
     {{else}}
       <div class="thumbnail">
     {{/if}}
-        <a href="{{url}}" target="_blank" title="{{title}}" onclick="ga('send', 'event', 'Books', '{{../title}}', '{{title}}');">
+        <a href="{{url}}" target="_blank" title="{{title}}" onclick="ga('send', 'event', 'Books', '{{../subtitle}}', '{{title}}');">
           <img src="{{image}}" class="img-responsive img-rounded" width="250" height="120">
         </a>
         <div class="caption">
           <h3 class="book-title">{{title}}</h3>
           <p class="book-description">{{description}}</p>
           <p class="book-metadata">Author: {{author}}<br>Year: <span class="label label-success">{{year}}</span> | Lang.: <span class="label label-success">{{lang}}</span> | Pages: <span class="label label-success">{{pages}}</span>
-          <p><a href="{{url}}" target="_blank" class="btn btn-success btn-block" role="button" onclick="ga('send', 'event', 'Books', '{{../title}}', '{{title}}');"><i class="icon-play"></i>&nbsp;Read</a>
+          <p><a href="{{url}}" target="_blank" class="btn btn-success btn-block" role="button" onclick="ga('send', 'event', 'Books', '{{../subtitle}}', '{{title}}');"><i class="icon-play"></i>&nbsp;Read</a>
         </div>
       </div>
     </div>

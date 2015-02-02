@@ -1,0 +1,23 @@
+<div class="row-fluid">
+  <p class="center">
+    <strong>{{total_platforms}}</strong> platforms and <strong>{{total_free_books}}</strong> books.
+  </p>
+</div>
+<div class="row-fluid">
+  {{#each platforms}}
+    <div class="col-xs-12 col-sm-4 col-md-3">
+      <div class="thumbnail">
+        <a href="{{url}}" title="{{about}}">
+          <img src="{{image}}" class="img-responsive img-rounded">
+        </a>
+        <div class="caption">
+          <p class="center">
+            <a href="{{url}}" title="{{about}}" class="btn btn-block btn-success">
+              <i class="icon-book"></i>&nbsp;{{title}} ({{total_books}} books)
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>

@@ -8,6 +8,17 @@
     "category": "languages",
     "books": [
       {
+        "title": "The Little Go Book",
+        "description": "The Little Go Book is a free introduction to Google's Go programming language. It's aimed at developers who might not be quite comfortable with the idea of pointers and static typing. It's longer than the other Little books, but hopefully still captures that little feeling.",
+        "author": "Karl Seguin",
+        "pages": 50, 
+        "year": 2014, 
+        "image": "the-little-go-book.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "http://openmymind.net/The-Little-Go-Book"
+      },
+      {
         "title": "Building web apps with Go",
         "description": "Learn how to build and deploy web applications with Go.",
         "author": "Jeremy Saenz",
@@ -17,6 +28,17 @@
         "lang": "EN",
         "publish": true,
         "url": "http://codegangsta.gitbooks.io/building-web-apps-with-go/"
+      },
+      {
+        "title": "An Introduction to Programming in Go",
+        "description": "Computer programming is the art, craft and science of writing programs which define how computers operate. This book will teach you how to write computer programs using a programming language designed by Google named Go.",
+        "author": "Caleb Doxsey",
+        "pages": 165, 
+        "year": 2012, 
+        "image": "an-introduction-to-programming-in-go.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "http://www.golang-book.com"
       }
     ]
   }

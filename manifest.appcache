@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 1 - 2015-02-03T17:29:39.918Z
+# rev 1 - 2015-02-04T11:09:02.767Z
 
 CACHE:
 http://devfreebooks.org/404.html
@@ -10,6 +10,7 @@ http://devfreebooks.org/api/angularjs.json
 http://devfreebooks.org/api/go.json
 http://devfreebooks.org/api/javascript.json
 http://devfreebooks.org/api/menu.json
+http://devfreebooks.org/api/meteor.json
 http://devfreebooks.org/api/nodejs.json
 http://devfreebooks.org/assets/css/main.css
 http://devfreebooks.org/assets/css/main.gz.css
@@ -31,16 +32,20 @@ http://devfreebooks.org/assets/images/javascript-and-node-fundamentals.jpg
 http://devfreebooks.org/assets/images/javascript-succinctly.jpg
 http://devfreebooks.org/assets/images/javascript.jpg
 http://devfreebooks.org/assets/images/learning-javascript-design-patterns.jpg
+http://devfreebooks.org/assets/images/lets-create-a-realtime-blackboard-with-meteor-streams.jpg
 http://devfreebooks.org/assets/images/mastering-nodejs.jpg
+http://devfreebooks.org/assets/images/meteor.jpg
 http://devfreebooks.org/assets/images/node-express-and-libsass-project-from-scratch-workshop.jpg
 http://devfreebooks.org/assets/images/nodejs-succinctly.jpg
 http://devfreebooks.org/assets/images/nodejs.jpg
 http://devfreebooks.org/assets/images/npm-recipes.jpg
 http://devfreebooks.org/assets/images/practical-angularjs.jpg
+http://devfreebooks.org/assets/images/pro-meteor-meteor-internals-scaling-and-more.jpg
 http://devfreebooks.org/assets/images/pro-nodejs-for-developers.jpg
 http://devfreebooks.org/assets/images/recipes-with-angularjs.jpg
 http://devfreebooks.org/assets/images/the-little-go-book.jpg
 http://devfreebooks.org/assets/images/your-first-app-nodejs.jpg
+http://devfreebooks.org/assets/images/your-first-meteor-application.jpg
 http://devfreebooks.org/assets/js/aightjs.gz.js
 http://devfreebooks.org/assets/js/aightjs.min.js
 http://devfreebooks.org/assets/js/html5shiv.gz.js
@@ -53,6 +58,7 @@ http://devfreebooks.org/favicon.ico
 http://devfreebooks.org/go/index.html
 http://devfreebooks.org/index.html
 http://devfreebooks.org/javascript/index.html
+http://devfreebooks.org/meteor/index.html
 http://devfreebooks.org/nodejs/index.html
 http://devfreebooks.org/robots.txt
 

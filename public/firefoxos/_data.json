@@ -1,0 +1,34 @@
+{
+  "index": {
+    "name": "firefoxos",
+    "subtitle": "Firefox OS",
+    "about": "Firefox OS is the new mobile operating system developed by Mozilla, based on Linux and Firefox's powerful Gecko rendering engine.",
+    "site": "https://developer.mozilla.org/en-US/Firefox_OS",
+    "image": "firefoxos.jpg",
+    "category": "frameworks",
+    "books": [
+      {
+        "title": "Quick Guide For Firefox OS App Development",
+        "description": "Learn how easy and quick it is to develop applications for Firefox OS, the new mobile operating system by Mozilla. Empowered by this books practical approach you will learn thru examples how to develop apps from the beginning all the way to the distribution in the Firefox Markeplace.",
+        "author": "Andre Garzia",
+        "pages": 80, 
+        "year": 2014, 
+        "image": "quick-guide-for-firefox-os-app-development.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "https://leanpub.com/quickguidefirefoxosdevelopment"
+      },
+      {
+        "title": "Building Games for Firefox OS",
+        "description": "Join us in the quest for building games for Firefox OS, the new mobile operating system by Mozilla. Empowered by this books practical approach you will learn thru examples how to develop a full game from the beginning all the way to the distribution in the Firefox Markeplace.",
+        "author": "Andre Garzia",
+        "pages": 125, 
+        "year": 2014, 
+        "image": "building-games-for-firefox-os.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "https://leanpub.com/buildinggamesforfirefoxos/"
+      }
+    ]
+  }
+}

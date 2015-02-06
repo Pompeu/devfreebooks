@@ -8,6 +8,28 @@
     "category": "languages",
     "books": [
       {
+        "title": "Human JavaScript",
+        "description": "This is a book about a specific set of tools, patterns, and approaches that we feel are optimized for people. These approaches enable our team to quickly build and deliver high-quality JavaScript applications for humans.",
+        "author": "Henrik Joreteg",
+        "pages": 16, 
+        "year": 2014,
+        "image": "human-javascript.jpg", 
+        "lang": "EN",
+        "publish": true,
+        "url": "http://read.humanjavascript.com/ch01-introduction.html"
+      },
+      {
+        "title": "Understanding ECMAScript 6",
+        "description": "This book is intended as a guide for those who are already familiar with JavaScript and ECMAScript 5. While a deep understanding of the language isn’t necessary to use this book, it is helpful in understanding the differences between ECMAScript 5 and 6.",
+        "author": "Nicholas C. Zakas",
+        "pages": 1, 
+        "year": 2014, 
+        "image": "understanding-ecmascript-6.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "https://leanpub.com/understandinges6/read"
+      },
+      {
         "title": "Writing Modular JavaScript With AMD, CommonJS & ES Harmony",
         "description": "In this article, we're going to look at three formats for writing modular JavaScript: AMD, CommonJS and proposals for the next version of JavaScript, Harmony.",
         "author": "Addy Osmani",

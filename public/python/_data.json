@@ -1,0 +1,34 @@
+{
+  "index": {
+    "name": "python",
+    "subtitle": "Python",
+    "about": "Python is a programming language that lets you work more quickly and integrate your systems more effectively. Python is powerful and fast, plays well with others, runs everywhere, is friendly and easy to learn.",
+    "site": "https://www.python.org/",
+    "image": "python.jpg",
+    "category": "languages",
+    "books": [
+      {
+        "title": "Python Practice Book",
+        "description": "This book is prepared from the training notes of Anand Chitipothu.",
+        "author": "Anand Chitipothu",
+        "pages": 36, 
+        "year": 2014, 
+        "image": "python-practice-book.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "http://anandology.com/python-practice-book/index.html"
+      },
+      {
+        "title": "Learn Python The Hard Way",
+        "description": "This book instructs you in Python by slowly building and establishing skills through techniques like practice and memorization, then applying them to increasingly difficult problems. By the end of the book you will have the tools needed to begin learning more complex programming topics.",
+        "author": "Zed A. Shaw",
+        "pages": 58, 
+        "year": 2014, 
+        "image": "learn-python-the-hard-way.jpg",
+        "lang": "EN",
+        "publish": true,
+        "url": "http://learnpythonthehardway.org/book/"
+      }
+    ]
+  }
+}

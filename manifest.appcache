@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 1 - 2015-02-05T12:02:48.650Z
+# rev 1 - 2015-02-06T11:35:52.206Z
 
 CACHE:
 http://devfreebooks.org/404.html
@@ -13,6 +13,7 @@ http://devfreebooks.org/api/javascript.json
 http://devfreebooks.org/api/menu.json
 http://devfreebooks.org/api/meteor.json
 http://devfreebooks.org/api/nodejs.json
+http://devfreebooks.org/api/python.json
 http://devfreebooks.org/assets/css/main.css
 http://devfreebooks.org/assets/css/main.gz.css
 http://devfreebooks.org/assets/font/icon.eot
@@ -32,9 +33,11 @@ http://devfreebooks.org/assets/images/ecmascript-language-specification.jpg
 http://devfreebooks.org/assets/images/firefoxos.jpg
 http://devfreebooks.org/assets/images/go.jpg
 http://devfreebooks.org/assets/images/heroku-nodejs.jpg
+http://devfreebooks.org/assets/images/human-javascript.jpg
 http://devfreebooks.org/assets/images/javascript-and-node-fundamentals.jpg
 http://devfreebooks.org/assets/images/javascript-succinctly.jpg
 http://devfreebooks.org/assets/images/javascript.jpg
+http://devfreebooks.org/assets/images/learn-python-the-hard-way.jpg
 http://devfreebooks.org/assets/images/learning-javascript-design-patterns.jpg
 http://devfreebooks.org/assets/images/lets-create-a-realtime-blackboard-with-meteor-streams.jpg
 http://devfreebooks.org/assets/images/mastering-nodejs.jpg
@@ -46,9 +49,12 @@ http://devfreebooks.org/assets/images/npm-recipes.jpg
 http://devfreebooks.org/assets/images/practical-angularjs.jpg
 http://devfreebooks.org/assets/images/pro-meteor-meteor-internals-scaling-and-more.jpg
 http://devfreebooks.org/assets/images/pro-nodejs-for-developers.jpg
+http://devfreebooks.org/assets/images/python-practice-book.jpg
+http://devfreebooks.org/assets/images/python.jpg
 http://devfreebooks.org/assets/images/quick-guide-for-firefox-os-app-development.jpg
 http://devfreebooks.org/assets/images/recipes-with-angularjs.jpg
 http://devfreebooks.org/assets/images/the-little-go-book.jpg
+http://devfreebooks.org/assets/images/understanding-ecmascript-6.jpg
 http://devfreebooks.org/assets/images/your-first-app-nodejs.jpg
 http://devfreebooks.org/assets/images/your-first-meteor-application.jpg
 http://devfreebooks.org/assets/js/aightjs.gz.js
@@ -66,6 +72,7 @@ http://devfreebooks.org/index.html
 http://devfreebooks.org/javascript/index.html
 http://devfreebooks.org/meteor/index.html
 http://devfreebooks.org/nodejs/index.html
+http://devfreebooks.org/python/index.html
 http://devfreebooks.org/robots.txt
 
 NETWORK:
